@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TimeSheet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Time Sheet"
+            android:textColor="@color/grey_001"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/A00_Done"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?actionBarItemBackground"
+            android:src="@drawable/ic_baseline_more_vert_24" />
+    </LinearLayout>
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="       Log History"
+        android:textColor="@color/grey_001"
+        android:drawableStart="@drawable/ic_round_notes_24"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="  Color coding : "
+            android:textSize="12dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/grey_002"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="   Filled"
+            android:textSize="12dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/grey_002"
+            android:drawableStart="@drawable/ic_round_fiber_manual_record_24"
+            android:drawableTint="@color/leaf_001"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="   Partial"
+            android:textSize="12dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/grey_002"
+            android:drawableStart="@drawable/ic_round_fiber_manual_record_24"
+            android:drawableTint="@color/leaf_002"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="   Leave"
+            android:textSize="12dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/grey_002"
+            android:drawableStart="@drawable/ic_round_fiber_manual_record_24"
+            android:drawableTint="@color/leaf_003"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:text="25"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:background="@color/leaf_003"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/grey_001"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="August, 2021"
+                android:layout_gravity="bottom"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Saturday"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/grey_002"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Logged 9 hours"
+                android:layout_gravity="bottom"
+                android:textColor="@color/grey_001"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Time : 9:00 Am IST "
+                android:textColor="@color/grey_001"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
