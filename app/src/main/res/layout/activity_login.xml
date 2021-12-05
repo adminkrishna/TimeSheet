@@ -38,38 +38,92 @@
             android:src="@drawable/ic_baseline_more_vert_24" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/appCompatTextView"
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:fontFamily="sans-serif-condensed"
-        android:gravity="center"
-        android:paddingLeft="10dp"
-        android:text="Vi Time Tracker"
-        android:textColor="@color/grey_001"
-        android:textSize="16dp"
-        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat"
-        app:layout_constraintVertical_bias="0.204"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.372"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/windowBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_calendar_svg" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingLeft="10dp"
+                android:text="Vi Time Tracker"
+                android:textColor="@color/grey_001"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingLeft="10dp"
+                android:text="Welcome!"
+                android:textColor="@color/grey_001"
+                android:textSize="12dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="match_parent"
+        android:id="@+id/appCompatTextView3"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:paddingLeft="10dp"
-        android:text="Login to start using the app"
+        android:text="We just need to get a few details from you to get you signed up to the service"
         android:textColor="@color/grey_001"
         android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat2"
+        app:layout_constraintVertical_bias="0.05" />
 
+    <TextView
+        android:id="@+id/LoginGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/curved_border_line"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_icons8_google"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="5dp"
+        android:text="    Sign in"
+        android:textColor="@color/grey_002"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView3"
+        app:layout_constraintVertical_bias="0.05" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

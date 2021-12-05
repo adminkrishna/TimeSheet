@@ -3,17 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/calendar.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/curved_border_line.xml" value="0.3828125" />
+        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/curved_edge.xml" value="0.3828125" />
+        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/curved_edge_accent.xml" value="0.3828125" />
         <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_baseline_eco_24.xml" value="0.3828125" />
         <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.3828125" />
         <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_calendar_svg.xml" value="0.3828125" />
         <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_round_fiber_manual_record_24.xml" value="0.3828125" />
         <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_round_notes_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_round_person_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_round_verified_user_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/layout/activity_fetch_user.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/layout/activity_login.xml" value="0.36102564102564105" />
         <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/layout/activity_time_sheet.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/layout/employee_list.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/layout/fragment_home.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/s_raj/AndroidStudioProjects/Login/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
       </map>
     </option>
   </component>

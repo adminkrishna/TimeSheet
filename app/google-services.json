@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "921870363331",
+    "firebase_url": "https://login-ea25e-default-rtdb.firebaseio.com",
     "project_id": "login-ea25e",
     "storage_bucket": "login-ea25e.appspot.com"
   },
